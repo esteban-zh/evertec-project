@@ -1,0 +1,33 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    font-family: Helvetica;
+}
+nav {
+    display: flex;
+    background-color: #c0c0c0;
+    padding: 10px;
+    color: black;
+    font-family: "Franklin Gothic Medium";
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-size: 20px;
+    font-family: Tahoma;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    padding-right: 10px;
+    list-style: none;
+}
+.brain-image {
+    background-position: center;
+}
