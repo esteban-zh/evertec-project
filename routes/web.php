@@ -20,3 +20,11 @@ Route::get('/', function () { //forma de enrutar los archivos
 Route::get('/borrador', function () { //forma de enrutar los archivos
     return view('borrador');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
